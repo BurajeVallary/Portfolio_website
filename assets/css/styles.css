@@ -207,7 +207,7 @@ img {
 }
 
 .nav_close {
-  position: fixed;
+  position: absolute;
   right: 1.3rem;
   bottom: .5rem;
   font-size: 1.5rem;
@@ -232,7 +232,9 @@ img {
   }
 }
 /* show menu */
-
+.show-menu {
+  bottom: 0;
+}
 
 /* Active link */
 
