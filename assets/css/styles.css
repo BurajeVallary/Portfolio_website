@@ -296,9 +296,9 @@ img {
   margin-bottom: var(--mb-2);
 }
 
-.home_scroll {
-  /* display: none; */
-}
+/* .home_scroll {
+  display: none;
+} */
 
 .home_scroll-button {
   color: var(--first-color);
