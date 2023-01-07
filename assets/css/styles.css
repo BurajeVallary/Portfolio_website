@@ -582,6 +582,10 @@ img {
 .qualification_active[data-content] {
   display: block;
 }
+
+.qualification_button.qualification_active {
+  color: var(--first-color);
+}
 /*==================== SERVICES ====================*/
 
 
