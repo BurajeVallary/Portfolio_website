@@ -699,7 +699,9 @@ img {
 }
 
 /*==================== PORTFOLIO ====================*/
-
+.portfolio_container {
+  overflow: initial;
+}
 
 /*==================== PROJECT IN MIND ====================*/
 
