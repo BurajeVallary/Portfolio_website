@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -619,10 +619,10 @@
                 <h2 class="section_title">Portfolio</h2>
                 <span class="section_subtitle">Most recent work</span>
 
-                <div class="portfolio_container container">
-                    <div>
+                <div class="portfolio_container container swiper mySwiper">
+                    <div class="swiper-wrapper">
                         <!--==================== PORTFOLIO 1 ====================-->
-                        <div class="portfolio_content grid">
+                        <div class="portfolio_content grid swiper-slide">
                             <img src="assets/img/portfolio1.jpg" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
@@ -636,7 +636,7 @@
                             </div>
                         </div>
                         <!--==================== PORTFOLIO 2 ====================-->
-                        <div class="portfolio_content grid">
+                        <div class="portfolio_content grid swiper-slide">
                             <img src="assets/img/portfolio2.jpg" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
@@ -650,7 +650,7 @@
                             </div>
                         </div>
                         <!--==================== PORTFOLIO 3 ====================-->
-                        <div class="portfolio_content grid">
+                        <div class="portfolio_content grid swiper-slide">
                             <img src="assets/img/portfolio3.jpg" alt="" class="portfolio_img">
 
                             <div class="portfolio_data">
@@ -663,6 +663,10 @@
                                     </a>
                             </div>
                         </div>
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </secion>
@@ -692,7 +696,7 @@
         
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
