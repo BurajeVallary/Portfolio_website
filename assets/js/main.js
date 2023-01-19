@@ -1,3 +1,6 @@
+
+
+
 /*==================== MENU SHOW Y HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
@@ -97,17 +100,20 @@ modalCloses.forEach((modalClose) => {
 })
 
 /*==================== PORTFOLIO SWIPER  ====================*/
-let swiper = new Swiper(".mySwiper", {
+let swiper = new Swiper('.portfolio_container', {
     cssMode: true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
+    loop: true,
+    // If we need pagination
     pagination: {
-      el: ".swiper-pagination",
+      el: '.swiper-pagination',
+      clickable: true
     },
-    mousewheel: true,
-    keyboard: true,
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    }
   });
 
 /*==================== TESTIMONIAL ====================*/

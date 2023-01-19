@@ -10,6 +10,7 @@
         <!--==================== SWIPER CSS ====================-->
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
+        
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -619,7 +620,7 @@
                 <h2 class="section_title">Portfolio</h2>
                 <span class="section_subtitle">Most recent work</span>
 
-                <div class="portfolio_container container swiper mySwiper">
+                <div class="portfolio_container container swiper-container">
                     <div class="swiper-wrapper">
                         <!--==================== PORTFOLIO 1 ====================-->
                         <div class="portfolio_content grid swiper-slide">
@@ -664,10 +665,15 @@
                             </div>
                         </div>
 
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
+                        
                     </div>
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </secion>
 
@@ -697,8 +703,9 @@
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
+    
 
         <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
+        <script  src="assets/js/main.js"></script>
     </body>
 </html>
